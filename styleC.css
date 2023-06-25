@@ -1,0 +1,121 @@
+.weather{
+  justify-content: center;
+  align-items: center;
+}
+
+.currentweather-box{
+  margin: 50px auto;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01);
+  cursor: pointer;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-family: sans-serif;
+  width: 300px;
+  height: 600px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+      box-shadow: 0 0 40px #ff5770;
+  }
+  10% {
+      box-shadow: 0 0 40px #e4428d;
+  }
+  20% {
+      box-shadow: 0 0 40px #c42da8;
+  }
+  30%{
+      box-shadow: 0 0 40px #9e16c3;
+  }
+  40%{
+      box-shadow: 0 0 40px #6501de;
+  }
+  50%{
+      box-shadow: 0 0 40px #9e16c3;
+  }
+  60%{
+      box-shadow: 0 0 40px #c42da8;
+  }
+  80%{
+      box-shadow: 0 0 40px #e4428d;
+  }
+  100%{
+      box-shadow: 0 0 40px #ff5770;
+  }
+}
+
+.func-box{
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  color: beige;
+  background-color: black;
+  padding: 30px 0px 0px 0px;
+  animation: glow 2s infinite;
+  margin-top: 50px;
+}
+
+.select{
+  margin: 20px 0px;
+} 
+
+.input{
+  margin: 40px auto;
+  border: 2px solid #E25D52;
+  border-radius: 7px;
+  background-color: #280413;
+  box-shadow: 0px 0px 15px #E25D52;
+  padding: 5px;
+  color: beige;
+ 
+  width: 170px;
+  margin: 0 auto;
+}
+
+#input{
+  background-color: #280413;
+  border: 0;
+  outline: none;
+}
+
+select{
+  background-color: rgb(51, 49, 49);
+  color: beige;
+  appearance: none;
+  padding: 3px;
+  outline: none;
+}
+
+a{
+  margin: 15px; 
+  position: absolute;
+  text-align: center;
+  border: 1px solid black;
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  color: beige;
+  background-color: black;
+  animation: glow 2s infinite;;
+  left: 45.5%;
+  text-decoration: none;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+body{
+
+  background-color: rgb(37, 35, 35);
+}
+

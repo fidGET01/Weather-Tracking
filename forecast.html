@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="styleF.css" />
+
+    <title>Weather Tracking</title>
+  </head>
+  <body>
+<div class="func-box">
+<div class="select">
+  <label for="cities">Choose a city:</label>
+  <select name="cities" id="cities">
+  <option value="Lviv">Lviv</option>
+  <option value="London">London</option>
+  <option value="Berlin">Berlin</option>
+  <option value="Kiev">Kiev</option>
+  </select>
+</div>
+<p>Type your city</p>
+<div class="input">
+  <input id="input"  type="text" autocomplete="off">
+</div>
+
+<div class="select">
+  <label for="cities">Choose the number of days:</label>
+  <select name="days" id="days">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  </select>
+</div>
+</div>
+<div id="futureWeatherData"class="futureweather-box"></div>
+
+<a href="index.html" data-text="&nbsp;Current Weather">&nbsp;Current Weather&nbsp;</a>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="forecast.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
